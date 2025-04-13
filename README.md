@@ -1,5 +1,5 @@
 # Rag chatbot with a localhost MCP server
-Building a RAG-based HR chatbot for providing rules in the workplace with the MCP server
+Building a RAG-based HR chatbot for providing rules in the workplace with the **localhost MCP server** as a function-calling hub
 <img src="images/rag.jpg" width="500">
 <img src="images/mcp-architecture.png" width="500">
 
@@ -7,6 +7,9 @@ Building a RAG-based HR chatbot for providing rules in the workplace with the MC
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using Streamlit. Users can upload PDF files, and the chatbot retrieves relevant information from the PDFs to answer natural language questions. The system leverages OpenAI models, LangChain utilities, and an in-memory vector store for efficient document retrieval.
 
 ## Features
+- **MCP Tool Integration**:  
+  Tool orchestration with **MCP** ensures smooth communication between document indexing, retrieval, and answer generation. The     backend tools can be extended or replaced easily as new functionalities are added.
+  
 - **PDF Upload and Parsing**:  
   Upload a PDF file which is then parsed using `PDFPlumberLoader` to extract text content.
 
