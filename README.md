@@ -29,4 +29,4 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using Str
   The application uses Streamlit to provide an interactive, chat-like interface where user questions and bot responses are displayed.
 
 ## Result
-<img src="images/HRwithMCP.png" width="500">
+<img src="images/HRwithMCP.png" width="700">
