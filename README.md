@@ -4,7 +4,7 @@ Building a RAG-based HR chatbot for providing rules in the workplace with the **
 <img src="images/mcp-architecture.png" width="500">
 
 ## Overview
-This project implements a Retrieval-Augmented Generation (RAG) chatbot using Streamlit. Users can upload PDF files, and the chatbot retrieves relevant information from the PDFs to answer natural language questions. The system leverages OpenAI models, LangChain utilities, and an in-memory vector store for efficient document retrieval.
+This project implements a Retrieval-Augmented Generation (RAG) chatbot using Streamlit and the MCP server. Users can upload PDF files, and the chatbot retrieves relevant information from the PDFs to answer natural language questions. The system leverages OpenAI models, LangChain utilities, and an in-memory vector store for efficient document retrieval.
 
 ## Features
 - **MCP Tool Integration**:  
