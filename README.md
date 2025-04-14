@@ -19,7 +19,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using Str
 - **Document Indexing**:  
   Chunks are indexed in an in-memory vector store with embeddings generated via `OpenAIEmbeddings`.
 
-- **Similarity Search**:  
+- **Similarity Search (Consine Similarity)**:  
   When a user submits a query, the chatbot performs a similarity search to retrieve the most relevant document chunks based on the query.
 
 - **Prompt-Based Answer Generation**:  
